@@ -1,0 +1,27 @@
+def display_rules():
+    print("\n")
+    print("="*40)
+    print("Oczko (Polish Blackjack) Rules")
+    print("="*40)
+    print("\n OBJECTIVE")
+    print("Get as close to 21 as possible without exceeding it.")
+
+    print("\n CARD VALUES")
+    print("- 2-10 → face value")
+    print("- J → 2, Q → 3, K→ 4 points")
+    print("- Ace → 11 points")
+
+    print("\n PLAYERS")
+    print("- 2 to 5 players (Including human player)")
+
+    print("\n GAMEPLAY")
+    print("1. Each player is dealt one card face-up.")
+    print("2. One player is randomly chosen to start,")
+    print("   but human player has always index 1.")
+    print("3. Turn order proceeds in ascending player number,")
+    print("   starting from the randomly selected player.")
+    print("4. On their turn, a player can:")
+    print("   - Take a card")
+    print("   - Pass")
+    print("4. If a player exceeds 21, they lose.")
+    print("="*40)
