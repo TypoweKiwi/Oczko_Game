@@ -1,4 +1,4 @@
-def display_rules():
+def display_rules(): #Written using ChatGPT
     print("\n")
     print("="*40)
     print("Oczko (Polish Blackjack) Rules")
